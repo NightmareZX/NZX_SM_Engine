@@ -1,0 +1,76 @@
+<?xml version = "1.0 " encoding = "UTF-8"?>
+<RasterFont>
+    <Properties>
+        <TextureName value = "sm_text_font_subversion.png"/>
+        <CharacterWidth value = "8"/>
+        <CharacterHeight value = "8"/>
+        <HorizontalSpacing value = "0"/>
+        <VerticalSpacing value = "0"/>
+        <BorderSize value = "1"/>
+        <HasUppercase value = "false"/>
+        <UniformSize value = "true"/>
+    </Properties>
+    <CharacterMap>
+        <Character char = "0" x = "0" y = "0"/>
+        <Character char = "1" x = "9" y = "0"/>
+        <Character char = "2" x = "18" y = "0"/>
+        <Character char = "3" x = "27" y = "0"/>
+        <Character char = "4" x = "36" y = "0"/>
+        <Character char = "5" x = "45" y = "0"/>
+        <Character char = "6" x = "54" y = "0"/>
+        <Character char = "7" x = "63" y = "0"/>
+        <Character char = "8" x = "72" y = "0"/>
+        <Character char = "9" x = "81" y = "0"/>
+        <Character char = "a" x = "90" y = "0"/>
+        <Character char = "b" x = "99" y = "0"/>
+        <Character char = "c" x = "108" y = "0"/>
+        <Character char = "d" x = "117" y = "0"/>
+        <Character char = "e" x = "126" y = "0"/>
+        <Character char = "f" x = "135" y = "0"/>
+        <Character char = "g" x = "0" y = "9"/>
+        <Character char = "h" x = "9" y = "9"/>
+        <Character char = "i" x = "18" y = "9"/>
+        <Character char = "j" x = "27" y = "9"/>
+        <Character char = "k" x = "36" y = "9"/>
+        <Character char = "l" x = "45" y = "9"/>
+        <Character char = "m" x = "54" y = "9"/>
+        <Character char = "n" x = "63" y = "9"/>
+        <Character char = "o" x = "72" y = "9"/>
+        <Character char = "p" x = "81" y = "9"/>
+        <Character char = "q" x = "90" y = "9"/>
+        <Character char = "r" x = "99" y = "9"/>
+        <Character char = "s" x = "108" y = "9"/>
+        <Character char = "t" x = "117" y = "9"/>
+        <Character char = "u" x = "126" y = "9"/>
+        <Character char = "v" x = "135" y = "9"/>
+        <Character char = "w" x = "0" y = "18"/>
+        <Character char = "x" x = "9" y = "18"/>
+        <Character char = "y" x = "18" y = "18"/>
+        <Character char = "z" x = "27" y = "18"/>
+        <Character char = "!" x = "36" y = "18"/>
+        <Character char = "?" x = "45" y = "18"/>
+        <Character char = "+" x = "54" y = "18"/>
+        <Character char = "-" x = "63" y = "18"/>
+        <Character char = "." x = "72" y = "18"/>
+        <Character char = "," x = "81" y = "18"/>
+        <Character char = "(" x = "90" y = "18"/>
+        <Character char = ")" x = "99" y = "18"/>
+        <Character char = ":" x = "108" y = "18"/>
+        <Character char = "*" x = "117" y = "18"/>
+        <Character char = "~" x = "126" y = "18"/>
+        <Character char = "#" x = "135" y = "18"/>
+        <Character char = "_" x = "0" y = "27"/>
+        <Character char = "/" x = "9" y = "27"/>
+        <Character char = "\" x = "18" y = "27"/>
+        <Character char = "=" x = "27" y = "27"/>
+        <Character char = "^" x = "36" y = "27"/>
+        <Character char = ";" x = "45" y = "27"/>
+        <Character char = "'" x = "54" y = "27"/>
+        <Character char = "|" x = "63" y = "27"/>
+        <Character char = "`" x = "72" y = "27"/>
+        <Character char = "<" x = "81" y = "27"/>
+        <Character char = ">" x = "90" y = "27"/>
+        <Character char = "%" x = "99" y = "27"/>
+        <Character char = "£" x = "108" y = "27"/>
+    </CharacterMap>
+</RasterFont>

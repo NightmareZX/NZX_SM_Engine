@@ -1,0 +1,29 @@
+Project Properties:
+- ISO C++ 20 Standard
+
+
+C++ Standard Library:
+- <cstdint> (for TypeDefs.h)
+- <memory> (shared_ptr as SharedPtr)
+- <string> (std::string as String)
+- <utility> (std::move, std::swap)
+- <cstring> (std::memcopy)
+- <unordered_map> (std::unordered_map as Hashmap)
+- <map> (std:map as Treemap)
+- <algorithm> (std::transform)
+- <vector> (std::vector as List)
+- <cmath> (std::lerp)
+
+SDL2 (2.28.5):
+- SDL_Renderer
+- SDL_Window
+- SDL_Rect as Rectangle
+- SDL_Color as Colour
+- SDL_Texture wrapped in Texture
+- SDL_Surface wrapped in Surface
+
+SDL2_image (2.8.1):
+
+TinyXML2 (Embedded into engine):
+
+ImGui (1.90):

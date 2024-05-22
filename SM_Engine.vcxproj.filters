@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SMEngine\src\Datastructures\Surface.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Datastructures\Texture.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\BaseControl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\BaseGui.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\EventHandler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\GlobalTimer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\Renderer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\src\Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\src\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\Engine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\GuiHandler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\src\GUI\TestGUI.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SMEngine\src\Components\Controls\GuiLabel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\TinyXML2\tinyxml2.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SMEngine\src\Datastructures\ControlType.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\RasterFont.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\Rectangle.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\Surface.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\Texture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\Vector2.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\XML.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\BaseControl.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\BaseGui.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\EventHandler.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\GlobalTimer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\Renderer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\src\Actions.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\src\Game.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\src\Array.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\src\Bitset.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\src\Matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\src\IntTypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\Engine.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\GuiHandler.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\src\Utility.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\src\GameGUIs.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\src\GUI\TestGUI.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Components\Controls\GuiLabel.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SMEngine\src\Datastructures\Colour.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\TinyXML2\tinyxml2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SMEngine\src\Components\EventHandler.inl">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common\src\Array.inl">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="Common\src\Matrix.inl">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

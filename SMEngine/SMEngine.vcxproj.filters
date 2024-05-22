@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{6B7DD516-5735-1764-C03C-F0BFAC13B254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datastructures">
+      <UniqueIdentifier>{23C2137F-0F90-0785-F823-78ABE490E3E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EmbeddedLibs">
+      <UniqueIdentifier>{19362522-0599-B4C6-AE1E-ED7C9A608049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EmbeddedLibs\TinyXML2">
+      <UniqueIdentifier>{6F43D67F-DBAF-917A-A4A3-29D810CFB3E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Components\BaseControl.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\BaseGui.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\EventHandler.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\EventHandler.inl">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\GlobalTimer.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Renderer.hpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\ControlType.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\Hashmap.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\RasterFont.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\Rectangle.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\Surface.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\Texture.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\Vector2D.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Datastructures\XML.hpp">
+      <Filter>Datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EmbeddedLibs\TinyXML2\tinyxml2.h">
+      <Filter>EmbeddedLibs\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Components\BaseControl.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\BaseGui.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\EventHandler.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\GlobalTimer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Renderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Datastructures\Surface.cpp">
+      <Filter>Datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Datastructures\Texture.cpp">
+      <Filter>Datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EmbeddedLibs\TinyXML2\tinyxml2.cpp">
+      <Filter>EmbeddedLibs\TinyXML2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
